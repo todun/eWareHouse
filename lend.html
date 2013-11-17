@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+     <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+          <title>eWareHouse - Lend</title>
+
+          <script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
+          <!-- Bootstrap CSS and theme CSS -->
+          <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+          <link rel="stylesheet" href="css/bootswatch.min.css">
+          <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+          <!--[if lt IE 9]>
+          <script src="../../assets/js/html5shiv.js"></script>
+          <script src="../../assets/js/respond.min.js"></script>
+          <![endif]-->
+     </head>
+
+     <body>
+          <script src="assets/js/bsa.js"></script>
+
+          <!-- Fixed navbar -->
+
+         <div class="navbar navbar-default navbar-fixed-top">
+           <div class="container">
+             <div class="navbar-header">
+               <a href="index.html" class="navbar-brand">eWareHouse</a>
+               <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+               </button>
+             </div>
+             <div class="navbar-collapse collapse" id="navbar-main">
+               <ul class="nav navbar-nav">
+
+               <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Location<span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby=" themes">
+                         <li><a tabindex="-1" href="">Georgia Institute of Technology</a></li>
+                         <li><a tabindex="-1" href="">Emory University</a></li>
+                         <li><a tabindex="-1" href="">University of Georgia</a></li>
+                         <li><a tabindex="-1" href="">Georgia State Univesity</a></li>
+                   </ul>
+               </li>
+
+               <li>
+                    <a href="borrow.html">Borrow +</a>
+               </li>
+
+               <li class="active">
+                   <a href="lend.html">Lend -</a>
+               </li>
+
+               </ul>
+
+               <ul class="nav navbar-nav navbar-right">
+                 <li><a href="" target="_blank">SIGN IN</a></li>
+                 <li><a href="" target="_blank">LOG IN</a></li>
+               </ul>
+
+             </div>
+           </div>
+          </div>
+
+
+          <!--Banner-->
+
+          <!--Main Body-->
+          <div class="container">
+               <br/>
+               <div class="bs-example">
+                    <div class="jumbotron">
+                    <h1>Stuff Provide</h1>
+
+                     <div class="row">
+
+          <div class="col-lg-12">
+            <div class="well">
+              <form class="bs-example form-horizontal">
+                <fieldset>
+                  <button type="button" class="btn btn-primary">Item to lend</button>
+                  <input type="text" id="stuffInput" placeholder="Laptop, switch, hub..." >
+                  <br/>
+                  <button type="button" class="btn btn-success"> Time of lengding </button>
+                  <input type="text" id="timeInput" placeholder="5 hrs, 3 days, 1 week...">
+                  <br/>
+                  <button type="button" class="btn btn-danger">Cost to charge</button>
+                  <input type = "text" id = "priceInput" placeholder="$5, $20, $100">
+                  <br/>
+                  <a href="matchup2.html"><button type="button" class="btn btn-default" style="float:right">Submit</button></a>
+                </fieldset>
+              </form>
+
+            </div>
+          </div>
+               </div>
+             </div>
+        </div>
+
+
+               <!-- Site footer -->
+               <hr/>
+               <div class="footer">
+                    <p>&copy; Copyright 2013. All rights reserved. Thanks to Twitter Bootstrap, Theme Cosmo and Team eWareHouse.</p>
+               </div>
+
+          </div>
+          <!-- Bootstrap JavaScript and jQuery-->
+          <script src="js/jquery-1.10.2.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
